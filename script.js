@@ -3,8 +3,8 @@ const element = document.getElementById('data');
 const showCounter = function() {
     const current = new Date();
     const year = current.getFullYear();
-    const month = 5;
-    const day = 7;
+    const month = 4;
+    const day = 6;
     const hour = 10;
 
     const promotionDate = new Date(year, month -1, day, hour);
